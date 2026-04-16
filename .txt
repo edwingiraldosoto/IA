@@ -1,0 +1,81 @@
+DB_USER=sa
+DB_PASSWORD=Sa1234*
+DB_SERVER=localhost
+DB_DATABASE=ferreterias_db
+
+#apis
+# GOOGLE_API_KEY=AIzaSyCZUw2835oafnlluGGIqJmKqaZIYhwf5MY
+# GEMINI_API_KEY=AIzaSyDbDMKwi_FaW5SPVyJJYUBOt9hZgkpIEAU
+
+GOOGLE_API_KEY=AIzaSyCZUw2835oafnlluGGIqJmKqaZIYhwf5MY
+GEMINI_API_KEY=AQ.Ab8RN6JXKuvESWIi0hJbDqPN6E3QNRszrkh7kb-TzKJr_-qYqw
+
+# =====================
+# CONFIGURACIÓN DEL NEGOCIO A BUSCAR
+# =====================
+
+# Nombre del negocio/tipo (se usará para logs)
+NOMBRE_NEGOCIO=FERRETERIAS
+
+# Tabla donde se guardarán los resultados
+TABLA_DESTINO=FERRETERIAS
+
+# Tipos de lugares de Google Places a buscar (separados por coma)
+# hardware_store: Cubre la ferretería tradicional de barrio (herramientas, tornillería, fontanería).
+# building_materials_supplier: Es el término técnico para los depósitos. Es vital para encontrar lugares que vendan materiales en bruto como bultos de cemento, varillas o arena.
+# home_improvement_store: Clasifica a los grandes almacenes de construcción y hogar, que suelen tener inventarios muy amplios.
+# store: Se mantiene como un comodín general, ya que algunos depósitos locales no se categorizan específicamente y solo aparecen bajo la etiqueta de "tienda".
+TIPOS_BUSQUEDA=hardware_store, home_improvement_store, building_materials_supplier, store
+
+
+# Keywords para buscar (separados por coma)
+KEYWORDS_BUSQUEDA=ferretería,ferreteria,depósito de materiales,deposito de materiales,materiales de construcción,materiales construccion,ferretería cerca,depósito de cemento,venta de cemento,ferretería barrio
+
+# Palabras para IDENTIFICAR el negocio (separadas por coma)
+PALABRAS_IDENTIFICACION=ferreteria,ferretería,deposito,depósito,materiales de construccion,materiales construcción,cemento,argos,holcim,ladrillo,arena,grava,gravilla,varilla,acero,tubo pvc,bloque,obra gris
+
+# Palabras para EXCLUIR (separadas por coma)
+PALABRAS_EXCLUIR=repuestos,autos,carros,vehiculos,motos,autopartes,taller,mecanico,lavadero,llantas,concesionario,restaurante,cafeteria,panaderia,bar,discoteca,licorera,comidas,asadero,piqueteadero,heladeria,pizzeria,hamburguesas,clinica,hospital,farmacia,drogueria,odontologia,dentista,veterinaria,supermercado,tienda,abarrotes,minimercado,iglesia,templo,peluqueria,barberia,spa,belleza,estetica,cosmeticos,moda,ropa,zapateria,joyeria,electronica,celulares,tecnologia,papeleria,libreria,hotel,hostal,motel,turismo,viajes,gimnasio,fitness,deportes,cancha,escuela,colegio,universidad,guarderia,banco,financiera,seguros,inmobiliaria,notaria,abogado,consultoria,oficina,empresa,industria,fabrica,bodega
+
+# =====================
+# PROMPTS PARA GEMINI
+# =====================
+
+# Prompt completo (recomendado usar solo este)
+PROMPT_COMPLETO=Eres un EXPERTO en analizar imágenes de ferreterías. Analiza estas imágenes de "{nombre_negocio}". REGLA: NO inventes información. Busca: 1) ¿Venden cemento o materiales de construcción? 2) Número de WhatsApp (10 dígitos que empiecen con 3) 3) Teléfono fijo (7-8 dígitos). Responde SOLO en JSON: {"vende_lo_que_buscamos": true/false, "productos_observados": ["producto1"], "whatsapp": "numero", "telefono_fijo": "numero", "nivel_confianza": "alto/media/bajo"}
+
+# =====================
+# SCORE (ponderaciones)
+# =====================
+
+SCORE_BASE=20
+SCORE_VENDE_LO_BUSCADO=40
+SCORE_TIENE_WHATSAPP=15
+SCORE_TIENE_TELEFONO=10
+SCORE_CONFIANZA_ALTO=10
+SCORE_CONFIANZA_MEDIA=5
+
+# =====================
+# CONFIGURACIÓN DE BÚSQUEDA GEOGRÁFICA
+# =====================
+
+# Departamentos a escanear (separados por coma)
+# Puedes poner: ANTIOQUIA, BOLIVAR, CUNDINAMARCA, VALLE, ATLANTICO, etc.
+DEPARTAMENTOS=ANTIOQUIA,CUNDINAMARCA,MAGDALENA,BOLIVAR,ATLANTICO,VALLE, RISARALDA,CALDAS
+
+# Radio de búsqueda por punto (metros)
+RADIO_BUSQUEDA=500
+
+# Overlap entre puntos (0.1 a 0.5)
+OVERLAP=0.3
+
+# Retrasos (milisegundos)
+DELAY_ENTRE_PUNTOS=1000
+DELAY_ENTRE_PAGINAS=2000
+DELAY_ENTRE_DEPARTAMENTOS=5000
+
+# Máximo de páginas por búsqueda
+MAX_PAGINAS=5
+
+# Máximo de fotos por lugar
+MAX_FOTOS=10
