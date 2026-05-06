@@ -1,0 +1,29 @@
+{
+  "id": "c43cb3df75de1ded",
+  "status": "completed",
+  "createdAt": "2026-05-05T17:54:34.453Z",
+  "startedAt": "2026-05-05T17:54:34.454Z",
+  "finishedAt": "2026-05-05T17:55:13.019Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Envigado",
+    "locationQuery": "Envigado, Antioquia, Colombia",
+    "searchQueries": [
+      "Ferreteria y deposito la loma"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 1,
+    "total": 1,
+    "currentItem": "Ferreteria y deposito la loma"
+  },
+  "result": {
+    "exitosos": 1,
+    "fallidos": 0,
+    "total": 1,
+    "registrosFallidos": []
+  },
+  "error": null
+}

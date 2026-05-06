@@ -1,0 +1,30 @@
+{
+  "id": "63b3703cb0c5cce4",
+  "status": "completed",
+  "createdAt": "2026-05-05T01:10:25.857Z",
+  "startedAt": "2026-05-05T01:10:25.858Z",
+  "finishedAt": "2026-05-05T01:12:16.014Z",
+  "config": {
+    "departamento": "Amazonas",
+    "municipio": "Leticia",
+    "locationQuery": "Leticia, Amazonas, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 2,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 3,
+    "total": 3,
+    "currentItem": "MI.FERRE"
+  },
+  "result": {
+    "exitosos": 3,
+    "fallidos": 0,
+    "total": 3,
+    "registrosFallidos": []
+  },
+  "error": null
+}

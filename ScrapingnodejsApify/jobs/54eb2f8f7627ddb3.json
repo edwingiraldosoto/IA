@@ -1,0 +1,30 @@
+{
+  "id": "54eb2f8f7627ddb3",
+  "status": "completed",
+  "createdAt": "2026-04-27T14:55:51.461Z",
+  "startedAt": "2026-04-27T14:55:51.461Z",
+  "finishedAt": "2026-04-27T14:56:44.491Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "La Estrella",
+    "locationQuery": "La Estrella, Antioquia, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 2,
+    "total": 2,
+    "currentItem": "Deposito Pradito- Cementos Argos"
+  },
+  "result": {
+    "exitosos": 2,
+    "fallidos": 0,
+    "total": 2,
+    "registrosFallidos": []
+  },
+  "error": null
+}

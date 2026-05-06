@@ -1,0 +1,29 @@
+{
+  "id": "12ee1f3a85e76847",
+  "status": "completed",
+  "createdAt": "2026-04-30T20:17:07.872Z",
+  "startedAt": "2026-04-30T20:17:07.873Z",
+  "finishedAt": "2026-04-30T20:17:56.978Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Sabaneta",
+    "locationQuery": "Sabaneta, Antioquia, Colombia",
+    "searchQueries": [
+      "Ferreteria Entreamigos"
+    ],
+    "maxPlaces": 2,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 1,
+    "total": 1,
+    "currentItem": "Ferreteria Entreamigos Donde Pitter"
+  },
+  "result": {
+    "exitosos": 1,
+    "fallidos": 0,
+    "total": 1,
+    "registrosFallidos": []
+  },
+  "error": null
+}

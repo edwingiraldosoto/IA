@@ -1,0 +1,30 @@
+{
+  "id": "3a41bf59a204db93",
+  "status": "completed",
+  "createdAt": "2026-04-21T13:16:52.428Z",
+  "startedAt": "2026-04-21T13:16:52.429Z",
+  "finishedAt": "2026-04-21T13:18:17.190Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Envigado",
+    "locationQuery": "Envigado, Antioquia, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 2,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 4,
+    "total": 4,
+    "currentItem": "Depósito Los Londoño S.A.S"
+  },
+  "result": {
+    "exitosos": 4,
+    "fallidos": 0,
+    "total": 4,
+    "registrosFallidos": []
+  },
+  "error": null
+}

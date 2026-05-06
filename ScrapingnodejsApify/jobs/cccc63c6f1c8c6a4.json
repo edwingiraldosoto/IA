@@ -1,0 +1,30 @@
+{
+  "id": "cccc63c6f1c8c6a4",
+  "status": "completed",
+  "createdAt": "2026-04-20T23:51:59.058Z",
+  "startedAt": "2026-04-20T23:51:59.059Z",
+  "finishedAt": "2026-04-20T23:52:39.714Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Sabaneta",
+    "locationQuery": "Sabaneta, Antioquia, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 2,
+    "total": 2,
+    "currentItem": "Materiales El Titán"
+  },
+  "result": {
+    "exitosos": 2,
+    "fallidos": 0,
+    "total": 2,
+    "registrosFallidos": []
+  },
+  "error": null
+}

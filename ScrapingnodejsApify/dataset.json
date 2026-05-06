@@ -1,0 +1,193 @@
+[
+  {
+    "title": "Ferreteria y deposito la loma",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Ferretería",
+    "address": "Cl. 36d Sur #23-27, Quinta Del Palmar, Envigado, Antioquia, Colombia",
+    "neighborhood": "Quinta Del Palmar",
+    "street": "Cl. 36d Sur #23-27",
+    "city": "Envigado",
+    "postalCode": "055427",
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "phone": "+57 301 1925014",
+    "phoneUnformatted": "+573011925014",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.15325,
+      "lng": -75.5648042
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "5C3P+73 Envigado, Antioquia, Colombia",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ-x-LTgCDRo4RikxQ7PRI9bQ",
+    "categories": [
+      "Ferretería"
+    ],
+    "fid": "0x8e4683004e8b1ffb:0xb4f548f4ec504c8a",
+    "cid": "13039408512895044746",
+    "reviewsCount": 3,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 3
+    },
+    "imagesCount": 8,
+    "imageCategories": [
+      "Todo",
+      "Interior",
+      "Videos",
+      "Del propietario",
+      "Street View y 360°"
+    ],
+    "scrapedAt": "2026-05-05T17:54:42.501Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "martes",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "miércoles",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "jueves",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "viernes",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "sábado",
+        "hours": "7:30 AM to 12 PM"
+      },
+      {
+        "day": "domingo",
+        "hours": "Cerrado"
+      },
+      {
+        "day": "lunes",
+        "hours": "7 AM to 5 PM"
+      }
+    ],
+    "openingHoursBusinessConfirmationText": "Actualizado por este negocio hace 8 semanas",
+    "peopleAlsoSearch": [
+      {
+        "category": "También se buscó",
+        "title": "Depósito y Ferretería La Mejor",
+        "reviewsCount": 23,
+        "totalScore": 4.6
+      },
+      {
+        "category": "También se buscó",
+        "title": "Depósito Los Londoño S.A.S",
+        "reviewsCount": 419,
+        "totalScore": 4.5
+      },
+      {
+        "category": "También se buscó",
+        "title": "Ferretería y Depósito La Paz - Cementos Argos",
+        "reviewsCount": 26,
+        "totalScore": 4.7
+      },
+      {
+        "category": "También se buscó",
+        "title": "Ferrelectricos y algo más",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "También se buscó",
+        "title": "Depósito Los Londoño S.A.S - nueva sede",
+        "reviewsCount": 78,
+        "totalScore": 4.1
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Opciones de servicio": [
+        {
+          "Entrega a domicilio": true
+        },
+        {
+          "Entrega el mismo día": true
+        }
+      ],
+      "Planificación": [
+        {
+          "Visita rápida": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ferreteria%20y%20deposito%20la%20loma&query_place_id=ChIJ-x-LTgCDRo4RikxQ7PRI9bQ",
+    "searchPageUrl": "https://www.google.com/maps/search/Ferreteria%20y%20deposito%20la%20loma/@6.192055046812903,-75.47939938793337,16z?hl=es-419",
+    "searchString": "Ferreteria y deposito la loma",
+    "language": "es-419",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEb192GRHfGYpiXYy5OQQSSuojqLtZRCJmbgltAewPdQXMV6BCgn0icKLIHX_oSRjqkNg9r1qYiFMIaCXiW6zvoEl-PicRrWEjnLoUHUglw-Tp2Mwk_HNka7HmUwBHXqZRWGzoJJBre0qYO=w408-h544-k-no",
+    "kgmid": "/g/11lzp73g2m",
+    "questionsAndAnswers": [],
+    "webResults": [],
+    "tableReservationLinks": [],
+    "bookingLinks": [],
+    "orderOnline": {
+      "pickUps": [],
+      "deliveries": []
+    },
+    "orderBy": [],
+    "restaurantData": {
+      "tableReservationProvider": null
+    },
+    "ownerUpdates": [
+      {
+        "text": "coche herragro\n",
+        "buttonText": null,
+        "buttonLink": null,
+        "date": "2026-03-05T12:31:25.000Z",
+        "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipOnwhmzds7jXykZLTk8v837UmLx3E_-AOSMsTE=h400-no"
+      },
+      {
+        "text": null,
+        "buttonText": null,
+        "buttonLink": null,
+        "date": "2026-03-05T12:30:42.000Z",
+        "imageUrl": "https://lh3.googleusercontent.com/geougc/AF1QipMsZFSel_sUi6sR7PMj2D5mYMo1v_kzY4U0KPw=h400-no"
+      }
+    ],
+    "imageUrls": [
+      "https://lh3.googleusercontent.com/p/AF1QipMWewCunXOtRx6ZKrAjDH0kXO8RQrZxK_1Jp6s=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNtzS4V7hhD3sACvvpfdzGR8Sq1nSDjlheXpEU=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNT3o4ATFKolw74zO7TNmPV7g-GOqqkM6iZYiI=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNKVbVRzZE0WvgLVKeqHH_I8OCUdPCnKtGrqCs=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElIvtS9puqfDa_2j0FAYxDT9x_D1FW_AN2pkjaTUi7pB8uH3qq5Z58Rwq-5LDOhX2vFG7AKlg3eeMCY2RHZKSySgO6y5on2CLPiQ63-J-AqhgyZSxbhDRXml03QgIFq6sGc9pl-w=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNP6yDXhw4VYEvULy-NB87UyrV0ZA-TTuI78KI=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5eWCeG02zYVZFbLa-56OkpXjy-PTAofGaWjbAUgmiTK5Qj9eRusAuq8reL8xhW_4tavblH9SxpvysCJdlK506Sje7lvYhFVZ-b3g6sf4Yn9iVZHpJbCOa5brwPW2wW96WCKi8kw=w1920-h1080-k-no",
+      "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eo28YA6aZz9vCvaeW_K2Tw&cb_client=lu.gallery.gps&w=160&h=106&yaw=302.4905&pitch=0&thumbfov=100"
+    ],
+    "reviews": [],
+    "leadsEnrichment": []
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "1296aef0eac6a122",
+  "status": "completed",
+  "createdAt": "2026-05-05T17:49:33.911Z",
+  "startedAt": "2026-05-05T17:49:33.912Z",
+  "finishedAt": "2026-05-05T17:50:27.231Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Envigado",
+    "locationQuery": "Envigado, Antioquia, Colombia",
+    "searchQueries": [
+      "Ferretería y Depósito La Paz - Cementos Argos"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 1,
+    "total": 1,
+    "currentItem": "Ferretería y Depósito La Paz - Cementos Argos"
+  },
+  "result": {
+    "exitosos": 1,
+    "fallidos": 0,
+    "total": 1,
+    "registrosFallidos": []
+  },
+  "error": null
+}

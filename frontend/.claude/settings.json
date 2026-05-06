@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:argos.co)",
+      "WebSearch",
+      "WebFetch(domain:brandpalettes.com)",
+      "WebFetch(domain:www.brandcolorcode.com)",
+      "WebFetch(domain:seekcolors.com)",
+      "WebFetch(domain:brandcenter.argos.co)",
+      "Read(//d/ESTUDIO/IA/RuesFastapi/**)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173 -w \"\\\\n%{http_code}\\\\n\")",
+      "Bash(curl -s \"http://127.0.0.1:8001/mapa/negocios?limite=10\")",
+      "Read(//tmp/**)",
+      "Bash(npm list *)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s http://localhost:5177)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s http://localhost:5173 http://localhost:5174 http://localhost:5175 http://localhost:5176 http://localhost:5177 http://localhost:5178 http://localhost:5179 http://localhost:5180)",
+      "Bash(node /tmp/validacion_final.js)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}

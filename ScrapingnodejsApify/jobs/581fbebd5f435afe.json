@@ -1,0 +1,30 @@
+{
+  "id": "581fbebd5f435afe",
+  "status": "completed",
+  "createdAt": "2026-04-21T20:13:38.600Z",
+  "startedAt": "2026-04-21T20:13:38.601Z",
+  "finishedAt": "2026-04-21T20:14:32.517Z",
+  "config": {
+    "departamento": "Córdoba",
+    "municipio": "San Bernardo del Viento",
+    "locationQuery": "San Bernardo del Viento, Córdoba, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 2,
+    "total": 2,
+    "currentItem": "Ferretería La Playa"
+  },
+  "result": {
+    "exitosos": 2,
+    "fallidos": 0,
+    "total": 2,
+    "registrosFallidos": []
+  },
+  "error": null
+}

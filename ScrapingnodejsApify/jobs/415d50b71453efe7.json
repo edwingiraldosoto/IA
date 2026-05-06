@@ -1,0 +1,29 @@
+{
+  "id": "415d50b71453efe7",
+  "status": "completed",
+  "createdAt": "2026-05-05T17:52:24.770Z",
+  "startedAt": "2026-05-05T17:52:24.771Z",
+  "finishedAt": "2026-05-05T17:53:51.068Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Envigado",
+    "locationQuery": "Envigado, Antioquia, Colombia",
+    "searchQueries": [
+      "Depósito Los Londoño S.A.S"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 1,
+    "total": 1,
+    "currentItem": "Depósito Los Londoño S.A.S"
+  },
+  "result": {
+    "exitosos": 1,
+    "fallidos": 0,
+    "total": 1,
+    "registrosFallidos": []
+  },
+  "error": null
+}

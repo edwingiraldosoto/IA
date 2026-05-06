@@ -1,0 +1,30 @@
+{
+  "id": "7421ec1b532f8944",
+  "status": "completed",
+  "createdAt": "2026-04-20T23:04:38.012Z",
+  "startedAt": "2026-04-20T23:04:38.013Z",
+  "finishedAt": "2026-04-20T23:06:15.167Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Envigado",
+    "locationQuery": "Envigado, Antioquia, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 3,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 6,
+    "total": 6,
+    "currentItem": "Ferreteria Doble O"
+  },
+  "result": {
+    "exitosos": 6,
+    "fallidos": 0,
+    "total": 6,
+    "registrosFallidos": []
+  },
+  "error": null
+}

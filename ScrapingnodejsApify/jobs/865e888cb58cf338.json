@@ -1,0 +1,30 @@
+{
+  "id": "865e888cb58cf338",
+  "status": "completed",
+  "createdAt": "2026-04-30T01:23:16.425Z",
+  "startedAt": "2026-04-30T01:23:16.427Z",
+  "finishedAt": "2026-04-30T01:24:29.205Z",
+  "config": {
+    "departamento": "Antioquia",
+    "municipio": "Abejorral",
+    "locationQuery": "Abejorral, Antioquia, Colombia",
+    "searchQueries": [
+      "ferreterías",
+      "depósitos de materiales"
+    ],
+    "maxPlaces": 1,
+    "maxImages": 10
+  },
+  "progress": {
+    "current": 1,
+    "total": 1,
+    "currentItem": "AgroInsumos Del Cafe"
+  },
+  "result": {
+    "exitosos": 1,
+    "fallidos": 0,
+    "total": 1,
+    "registrosFallidos": []
+  },
+  "error": null
+}
