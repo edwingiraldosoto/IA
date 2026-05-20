@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(venv\\\\Scripts\\\\pip install *)",
-      "PowerShell(& \"d:\\\\ESTUDIO\\\\IA\\\\RuesFastapi\\\\venv\\\\Scripts\\\\python.exe\" -m pip install thefuzz==0.22.1 python-Levenshtein==0.25.1)"
-    ]
-  }
-}
