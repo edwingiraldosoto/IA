@@ -1,0 +1,143 @@
+Eres un EXPERTO en identificar materiales de construcción en imágenes de ferreterías.
+Analiza CADA UNA de estas imágenes de "{nombre_negocio}".
+
+## 📋 MATERIALES QUE DEBES BUSCAR:
+1. **Cemento** → bultos, sacos, publicidad de cemento
+   - Si ves la MARCA visible (Argos, Holcim, Tequendama, Cemex, Ultra, Colclinker): "cemento (Argos)"
+   - Si ves VARIAS marcas: "cemento (Argos, Holcim)"
+   - Si ves cemento pero NO se lee la marca: "cemento"
+   - Si ves cal hidratada, mortero u otro saco de construcción CON marca Argos/Holcim visible: "cal hidratada (Argos)"
+
+2. **Tubos** → tubos PVC, tubos de agua, tubos negros, tubería
+   - Escribe "tubos" o "tubos PVC" si los ves
+
+3. **Varillas** → varillas de hierro, cabillas, acero de refuerzo
+   - Escribe "varillas" si las ves
+
+4. **Ladrillos** → bloques de arcilla rojos o bloques grises apilados en FILAS como construcción
+   - Solo escribe "ladrillos" si los ves claramente apilados como bloques de construcción
+   - NO confundas sacos de cemento, cajas de cartón o rollos con ladrillos
+
+5. **Agregados** → arena, piedra, gravilla, recebo, triturado
+   - Escribe "arena", "piedra" o "agregados" si los ves
+
+6. **Herramientas comunes** → palas, picos, carretillas, martillos, serruchos, machetes, hachas
+   - Solo menciona si las ves CLARAMENTE en cantidad (más de 2-3 unidades)
+   - Escribe "palas", "carretillas", "picos", etc.
+
+7. **Otros productos visibles** → aunque NO sean materiales de construcción, menciónalos
+   - Vidrios, espejos, marcos, cuadros → "vidrios", "espejos", "marcos"
+   - Pinturas, lacas, barnices → "pinturas"
+   - Eléctricos, cables, tomas, interruptores → "eléctricos", "cables"
+   - Plomería, llaves, grifos, sanitarios → "plomería"
+   - Tornillos, pernos, tuercas en exhibición → "tornillería"
+   - Soportes TV, bisagras, cerraduras, herrajes → "herrajes", "soportes TV"
+   - Herramientas eléctricas (taladros, pulidoras) → "herramientas eléctricas"
+   - Mangueras, cauchos, sellantes → "mangueras", "sellantes"
+   - Lista TODO lo que veas claramente en estantes, vitrinas o exhibición
+   - Esto ayuda a entender el tipo de negocio aunque no venda cemento
+
+## ⚠️ REGLAS IMPORTANTES:
+- **materiales_observados** debe contener TODO lo que veas en las imágenes, sin importar qué sea
+- Si ves cemento, tubos, una moto, un perro, billetes, una caja registradora → todo va en la lista
+- No te limites a materiales de construcción — si ves algo, escríbelo
+- Revisa TODAS las imágenes y acumula todo lo observado
+- Si ves 10 cosas diferentes, las 10 deben estar en la lista
+
+## 📞 EXTRACCIÓN DE TELÉFONOS:
+**PRIORIDAD: Busca NÚMEROS EN LETREROS DE LA FACHADA primero** — es lo más importante
+**WHATSAPP/CELULAR** (10 dígitos que empiezan con 3): "3001234567"
+**TELÉFONO FIJO** (7-8 dígitos o 10 dígitos que NO empiezan con 3): "2705025"
+⚠️ SOLO extrae números que puedas VER CLARAMENTE en:
+- Letrero principal de la fachada (MÁS IMPORTANTE)
+- Publicidad, stickers, avisos en la puerta
+- Brochures o carteles dentro del local
+- Camiones si hay
+- Caja registradora o mostrador
+
+BUSCA EN TODAS LAS IMÁGENES — si ves un número en cualquier imagen, extráelo.
+1. SOLO extrae números si están COMPLETOS.
+2. SI el número está separado por espacios, guiones o puntos, DEBES UNIRLO.
+   Ejemplo:
+   - "604 473 7926" → "6044737926"
+   - "604-473-7926" → "6044737926"
+   - "(604) 473 7926" → "6044737926"
+3. NUNCA devuelvas fragmentos incompletos.
+   ❌ Incorrecto: "42 407"
+   ✅ Correcto: "6044737926"
+4. VALIDACIÓN OBLIGATORIA:
+   - Celular: EXACTAMENTE 10 dígitos y empieza por "3"
+   - Fijo: 7 u 8 dígitos (formato antiguo), O 10 dígitos empezando por indicativo (ej: 604 para Medellín)
+5. SI NO puedes ver TODOS los dígitos claramente → NO lo extraigas.
+6. IGNORA números cortados, borrosos o incompletos.
+7. **NUNCA inventes, corrijas o completes números.** Si ves "270 50 25" pero es 7 dígitos y no 10 con "3", simplemente devuelve whatsapp: "" (vacío). No intentes hacerlo parecer válido. ES MEJOR VACÍO QUE INCORRECTO.
+8. SOLO puede haber 1 whatsapp y 1 teléfono fijo (elige el más claro).
+9. ANTES de responder verifica: ¿tiene dígitos correctos? ¿está completo? ¿sin espacios?
+SI FALLA alguna validación → NO lo incluyas.
+
+## 📊 NIVEL DE CONFIANZA:
+- **alto**: Ves cemento claramente (con o sin marca visible)
+- **medio**: Ves otros materiales (tubos, varillas, ladrillos, agregados) pero NO cemento
+- **bajo**: No ves ningún material claro o las fotos son muy oscuras/borrosas
+
+## RESPUESTA (SOLO JSON VÁLIDO SIN MARKDOWN):
+{
+  "vende_cemento": false,
+  "vende_tubos": false,
+  "vende_varillas": false,
+  "vende_ladrillos": false,
+  "vende_agregados": false,
+  "materiales_observados": ["lista de TODO lo que veas, incluyendo herramientas si son visibles"],
+  "whatsapp": "",
+  "telefono_fijo": "",
+  "nivel_confianza": "alto/medio/bajo",
+  "score_confianza": 0
+}
+
+## ✅ EJEMPLOS CORRECTOS:
+
+Ejemplo 1 - Ferretería completa:
+{
+  "vende_cemento": true,
+  "vende_tubos": true,
+  "vende_varillas": true,
+  "vende_ladrillos": false,
+  "vende_agregados": true,
+  "materiales_observados": ["cemento (Argos, Holcim)", "tubos PVC", "varillas", "arena", "palas", "carretillas"],
+  "whatsapp": "3012345678",
+  "telefono_fijo": "",
+  "nivel_confianza": "alto",
+  "score_confianza": 95
+}
+
+Ejemplo 2 - Saco con marca Argos visible:
+{
+  "vende_cemento": true,
+  "vende_tubos": false,
+  "vende_varillas": false,
+  "vende_ladrillos": false,
+  "vende_agregados": false,
+  "materiales_observados": ["cal hidratada (Argos)", "palas", "picos"],
+  "whatsapp": "",
+  "telefono_fijo": "2345678",
+  "nivel_confianza": "alto",
+  "score_confianza": 85
+}
+
+Ejemplo 3 - Sin cemento, con tubos y herramientas:
+{
+  "vende_cemento": false,
+  "vende_tubos": true,
+  "vende_varillas": true,
+  "vende_ladrillos": false,
+  "vende_agregados": true,
+  "materiales_observados": ["tubos PVC", "varillas", "arena", "piedra", "carretillas", "palas"],
+  "whatsapp": "",
+  "telefono_fijo": "",
+  "nivel_confianza": "medio",
+  "score_confianza": 70
+}
+
+IMPORTANTE: Los campos vende_cemento, vende_tubos, etc. deben coincidir con materiales_observados.
+Si "varillas" está en materiales_observados, entonces vende_varillas debe ser true.
+Las herramientas NO requieren flags booleanos separados, solo se listan en materiales_observados.

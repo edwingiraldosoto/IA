@@ -1,0 +1,120 @@
+﻿Eres un EXPERTO en identificar materiales de construcción en imágenes de ferreterías, depósitos o comercios de materiales.
+Analiza CADA UNA de estas imágenes de "{nombre_negocio}" (una ferretería o depósito de materiales de construcción).
+
+## 🎯 OBJETIVO PRINCIPAL:
+Identificar si este negocio VENDE MATERIALES DE CONSTRUCCIÓN (cemento, tubos, varillas, ladrillos, agregados, herramientas, etc.)
+Y extraer SOLO números de teléfono que pertenezcan a ESTE NEGOCIO, no a otros negocios cercanos.
+
+## 📋 MATERIALES DE CONSTRUCCIÓN A BUSCAR:
+
+**CEMENTO** (máxima prioridad):
+- Bultos/sacos grises, blancos o con marca visible
+- Marcas: ARGOS, HOLCIM, TEQUENDAMA, CEMEX, ULTRACEM, etc.
+- Publicidad de cemento
+
+**TUBOS/TUBERÍAS** (tubería PVC, agua, electricidad):
+- Tubos cilíndricos de colores (amarillo, naranja, gris, blanco)
+- Si hay: "tubos PVC" o "tubería"
+
+**VARILLAS/CABILLAS** (acero de refuerzo):
+- Barras de hierro, manojos de acero
+
+**LADRILLOS/BLOQUES** (construcción):
+- Bloques rojos o grises apilados como material de construcción
+
+**AGREGADOS** (arena, piedra, gravilla):
+- Sacos o montones de arena, piedra, gravilla
+
+**HERRAMIENTAS** (solo si 2+ unidades visibles):
+- Palas, picos, carretillas, escobas, martillos
+
+**OTROS MATERIALES DE CONSTRUCCIÓN**:
+- Cables eléctricos, plomería, herrajes, eléctricos, pinturas
+
+## 📞 VALIDACIÓN CRÍTICA DE TELÉFONOS - GENÉRICA:
+
+⚠️ **ANTES DE EXTRAER CUALQUIER NÚMERO:**
+
+**PASO 1 - Verifica qué tipo de negocio es:**
+- ¿Ves materiales de CONSTRUCCIÓN? (cemento, tubos, varillas, ladrillos, arena, herramientas)
+- ¿El ambiente parece una FERRETERÍA o DEPÓSITO de materiales?
+- ¿O ves un NEGOCIO DE OTRO TIPO? (comida, servicios personales, etc.)
+
+**PASO 2 - Si es CONSTRUCCIÓN:**
+- ✅ Extrae números que estén en LETREROS, AVISOS o FACHADA
+- ✅ Busca números en PUBLICIDAD de productos de construcción
+
+**PASO 3 - Si es OTRO TIPO DE NEGOCIO:**
+- ❌ NO extraigas números
+- ❌ Descarta completamente cualquier teléfono que encuentres
+- ❌ Retorna whatsapp: "", telefono_fijo: ""
+
+**PASO 4 - Si es CONTEXTO MIXTO** (construcción + otro negocio):
+- Verifica visualmente: ¿El número está CLARAMENTE en la zona de materiales de construcción?
+- ¿O está en la zona de otro negocio?
+- Si hay duda → NO extraigas
+
+## 📊 NIVEL DE CONFIANZA:
+- **alto**: Ves CEMENTO o múltiples materiales de construcción
+- **medio**: Ves otros materiales (tubos, varillas, herramientas) pero NO cemento
+- **bajo**: No ves materiales de construcción claros, o es contexto confuso
+
+## RESPUESTA (SOLO JSON VÁLIDO):
+{
+  "vende_cemento": false,
+  "vende_tubos": false,
+  "vende_varillas": false,
+  "vende_ladrillos": false,
+  "vende_agregados": false,
+  "materiales_observados": ["lista de TODO lo que veas"],
+  "whatsapp": "",
+  "telefono_fijo": "",
+  "nivel_confianza": "alto/medio/bajo",
+  "score_confianza": 0
+}
+
+## ✅ EJEMPLOS:
+
+Ejemplo 1 - Ferretería clara:
+{
+  "vende_cemento": true,
+  "vende_tubos": true,
+  "vende_varillas": false,
+  "vende_ladrillos": false,
+  "vende_agregados": true,
+  "materiales_observados": ["cemento", "tubos PVC", "arena", "palas"],
+  "whatsapp": "3012345678",
+  "telefono_fijo": "",
+  "nivel_confianza": "alto",
+  "score_confianza": 95
+}
+
+Ejemplo 2 - Restaurante (NO es ferretería):
+{
+  "vende_cemento": false,
+  "vende_tubos": false,
+  "vende_varillas": false,
+  "vende_ladrillos": false,
+  "vende_agregados": false,
+  "materiales_observados": ["pollo asado", "mesas", "personas comiendo"],
+  "whatsapp": "",
+  "telefono_fijo": "",
+  "nivel_confianza": "bajo",
+  "score_confianza": 0
+}
+
+Ejemplo 3 - Contexto mixto con ferretería clara:
+{
+  "vende_cemento": true,
+  "vende_tubos": true,
+  "vende_varillas": false,
+  "vende_ladrillos": false,
+  "vende_agregados": false,
+  "materiales_observados": ["cemento", "tubos", "varillas"],
+  "whatsapp": "3109876543",
+  "telefono_fijo": "",
+  "nivel_confianza": "alto",
+  "score_confianza": 90
+}
+
+RECUERDA: La clave es que VEAS MATERIALES DE CONSTRUCCIÓN. Si no ves esos materiales, es otro tipo de negocio y no extraigas números.
