@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Deposito Medellin El Bagre Ltda",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tienda de herramientas",
+    "address": "Cra. 50, El Bagre, Antioquia, Colombia",
+    "neighborhood": null,
+    "street": "Cra. 50",
+    "city": "El Bagre",
+    "postalCode": null,
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "phone": "+57 48372353",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 7.600152,
+      "lng": -74.8128559
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "J52P+3V El Bagre, Antioquia, Colombia",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJYZNwPbavXI4RC3iRqRUPnD8",
+    "categories": [
+      "Tienda de herramientas"
+    ],
+    "fid": "0x8e5cafb63d709361:0x3f9c0f15a991780b",
+    "cid": "4583555106469935115",
+    "reviewsCount": 7,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 1,
+      "threeStar": 0,
+      "fourStar": 2,
+      "fiveStar": 4
+    },
+    "imagesCount": 3,
+    "imageCategories": [
+      "Todo",
+      "Street View y 360°"
+    ],
+    "scrapedAt": "2026-05-19T14:00:57.904Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "martes",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "miércoles",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "jueves",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "viernes",
+        "hours": "7 AM to 5 PM"
+      },
+      {
+        "day": "sábado",
+        "hours": "7:30 AM to 4:30 PM"
+      },
+      {
+        "day": "domingo",
+        "hours": "Cerrado"
+      },
+      {
+        "day": "lunes",
+        "hours": "7 AM to 5 PM"
+      }
+    ],
+    "openingHoursBusinessConfirmationText": "Actualizado por otros usuarios hace 4 semanas",
+    "peopleAlsoSearch": [
+      {
+        "category": "También se buscó",
+        "title": "Ferreteria El 20 3s",
+        "reviewsCount": 11,
+        "totalScore": 3.7
+      },
+      {
+        "category": "También se buscó",
+        "title": "Ferretería Ferromacer",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "También se buscó",
+        "title": "Ferretería El Divono Niño",
+        "reviewsCount": 12,
+        "totalScore": 4.4
+      },
+      {
+        "category": "También se buscó",
+        "title": "Proveedora y Autoservicio el Bagre",
+        "reviewsCount": 21,
+        "totalScore": 4.5
+      },
+      {
+        "category": "También se buscó",
+        "title": "Ferreteria San Jose",
+        "reviewsCount": 5,
+        "totalScore": 2.6
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Opciones de servicio": [
+        {
+          "Entrega a domicilio": true
+        }
+      ],
+      "Planificación": [
+        {
+          "Visita rápida": true
+        }
+      ],
+      "Pagos": [
+        {
+          "Tarjetas de débito": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Deposito%20Medellin%20El%20Bagre%20Ltda&query_place_id=ChIJYZNwPbavXI4RC3iRqRUPnD8",
+    "searchPageUrl": "https://www.google.com/maps/search/Deposito%20Medellin%20El%20Bagre%20Ltda/@7.697397850000001,-74.50359721584364,13z?hl=es-419",
+    "searchString": "Deposito Medellin El Bagre Ltda",
+    "language": "es-419",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQ5kuVnuFrpPJ535HSz7fZZ04lnGnT-KYXIcwXlw0lHaM2A0dYjKYTYg0tfc6uWali8954u6uGRBR_8ON7nzvZicriTsIiwOwOEO7gSNi25rf13l1DsJAyanYNAKo55uUSMVUXdQ=w426-h240-k-no",
+    "kgmid": "/g/11gyb19t28",
+    "questionsAndAnswers": [],
+    "webResults": [],
+    "tableReservationLinks": [],
+    "bookingLinks": [],
+    "restaurantData": {
+      "tableReservationProvider": null
+    },
+    "ownerUpdates": [],
+    "imageUrls": [
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQ5kuVnuFrpPJ535HSz7fZZ04lnGnT-KYXIcwXlw0lHaM2A0dYjKYTYg0tfc6uWali8954u6uGRBR_8ON7nzvZicriTsIiwOwOEO7gSNi25rf13l1DsJAyanYNAKo55uUSMVUXdQ=w1920-h1080-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwfZ0qfDhVfy5c_gyLUa1StnO1oNOrsY6bDtehmV3FMfMVlHzrfXbtCcDP3CGJYCjANMOu8CqaiYk1y1g5CBb4UE6R1ogbhx8I3_CrWmdHBkxTvFnm_Gb5mZJBDp884CZWaIw=w1920-h1080-k-no",
+      "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uN3c2igNdkE5U8zWdNBBhw&cb_client=lu.gallery.gps&w=160&h=106&yaw=329.4311&pitch=0&thumbfov=100"
+    ],
+    "reviews": [],
+    "leadsEnrichment": []
+  }
+]

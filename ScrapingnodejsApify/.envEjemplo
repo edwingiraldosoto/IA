@@ -1,0 +1,40 @@
+# ================================
+# SQL SERVER
+# ================================
+DB_SERVER=localhost
+DB_NAME=ferreterias_db
+DB_USER=sa
+DB_PASS=Sa1234*
+
+
+APIFY_TOKEN=
+APIFY_ACTOR_ID=compass/crawler-google-places
+
+GEMINI_API_KEY=
+
+# Cron: lista separada por comas
+CRON_DEPARTAMENTO=Antioquia
+CRON_MUNICIPIOS=Envigado,Medellín,Bello,Itagüí,Sabaneta
+CRON_SEARCH_QUERIES=ferreterías,depósitos de materiales,cementeras
+CRON_SCHEDULE=0 3 * * *
+CRON_MAX_PLACES=3
+
+# ================================
+# SERVIDOR
+# ================================
+PORT=3000
+CORS_ORIGIN=http://localhost:5173
+
+# ================================
+# AWS Rekognition
+# ================================
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=us-east-1
+
+GOOGLE_MAPS_API_KEY=
+
+# ================================
+# Google Cloud Vision (OCR y detección de objetos)
+# ================================
+GOOGLE_CLOUD_VISION_API_KEY=
