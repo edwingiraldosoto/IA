@@ -1,0 +1,17 @@
+# API del scraper (puerto 3000)
+VITE_API_URL=http://localhost:3000/api
+
+# API del chatbot FastAPI (puerto 8000)
+VITE_CHAT_API_URL=http://localhost:8000/api
+
+# API de RUES (puerto 8001)
+VITE_RUES_API_URL=http://localhost:8001
+
+# API de sincronización (puerto 8001)
+VITE_SYNC_API_URL=http://localhost:8001
+
+# API de ARGOS (puerto 8001)
+VITE_ARGOS_API_URL=http://localhost:8001
+
+# API de Colombia
+VITE_COLOMBIA_API_URL=https://api-colombia.com/api/v1
